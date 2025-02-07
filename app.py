@@ -8,8 +8,8 @@ CORS(app)  # Initialize CORS
 @app.route('/', methods=['GET'])
 def get_info():
     email = "bakareadewale@gmail.com"
-    current_datetime = datetime.utcnow().isoformat() + "Z"  # Corrected to "Z"
-    github_url = "https://github.com/yourusername/your-repo"  # Replace with your actual GitHub URL
+    current_datetime = datetime.utcnow().isoformat() + "Z"
+    github_url = "https://github.com/walerick/hng12_firstproject/tree/master"
 
     response = {
         "email": email,
